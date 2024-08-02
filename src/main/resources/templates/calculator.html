@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Serio's Home</title>
+		<title>Calculator</title>
 		<!-- BOOTSTRAP CSS -->
 		<link rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.3/css/bootstrap.min.css}">	
 		<link rel="stylesheet" th:href="@{/css/style.css}">	
@@ -25,7 +25,7 @@
 			      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 					<!-- HOME BUTTON -->
 			        <li class="nav-item">
-			         	<a class="nav-link disabled" aria-disabled="true" aria-current="page" th:href="@{/home}">Home</a>
+			         	<a class="nav-link active text-white" aria-current="page" th:href="@{/home}">Home</a>
 			        </li>
 					<!-- LINK BUTTON -->
 			        <li class="nav-item">
@@ -37,7 +37,7 @@
 					</li>
 					<!-- CALCULATOR BUTTON -->
 					<li class="nav-item">
-					  <a class="nav-link text-white" th:href="@{/calculator}">Calculator</a>
+					  <a class="nav-link disabled" aria-disabled="true" aria-current="page"  th:href="@{/calculator}">Calculator</a>
 					</li>
 			      </ul>
 			    </div>
