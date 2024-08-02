@@ -1,0 +1,7 @@
+body{
+	background-color: black;
+}
+main{
+	background-image: url('../img/background.png');
+	background-size:cover;
+}
